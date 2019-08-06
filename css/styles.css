@@ -5,6 +5,7 @@ body{
     background-image: url("../images/contact-us-background-image_625723.png");
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 25%;
 
 }
 .contact-form{
@@ -12,7 +13,7 @@ body{
     max-width: 600px;
     position: absolute;
     background:#f1f1f1;
-    top:50%;
+    top:45%;
     left:50%;
     transform: translate(-50%,-50%);
     padding: 30px 40px;
@@ -51,11 +52,44 @@ body{
 }
 .btn{
     display: inline-block;
-    background: maroon;
+    background:#013220;
     padding: 14px 0;
-    color: white;
+    color: black;
     text-transform: uppercase;
     cursor:pointer;
     margin-top: 8px;
     width: 100%;
+}
+.footer{
+    width: 100%;
+    /* height:auto; */
+    /* margin:auto; */
+    background:#272727;
+    padding: 60px ;
+    top:90%;
+    position: absolute;;
+    left:0;
+
+    
+
+}
+.footer ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer ul li{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    margin: 0px 10px;
+    border-radius:100%;
+    background:#013220; 
+}
+.footer ul li a{
+    color:white;
+    font-size: 25px;
+}
+.footer ul li a i{
+    line-height:50px;
 }
