@@ -73,7 +73,46 @@ body{
     
 
 }
-.footer ul{
+fa{
+    line-height:50px; 
+}
+.fa:hover{
+    opacity:0.7;
+  }
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    /* text-align: center; */
+    text-decoration: none;
+    left: 50%;
+    /* left: 50%; */
+
+    
+}
+  .fa-facebook{
+    background:black;
+    color:white;
+    /* width:70px;
+    height:70px;
+    margin: 0px 20px;
+    border-radius:100%;
+    font-size: 25px;
+    line-height:50px; */
+  }
+  .fa-instagram{
+    background: black;
+    color:white;
+  }
+  .fa-twitter{
+    background:black;
+    color:white;
+  }
+  .fa-linkedin{
+    background:black;
+    color:white;
+  }
+/* .footer ul{
     margin: 0px;
     padding: 0px;
     text-align: center;
@@ -87,9 +126,10 @@ body{
     background:#013220; 
 }
 .footer ul li a{
-    color:white;
+    
     font-size: 25px;
 }
 .footer ul li a i{
     line-height:50px;
-}
+    color:white;
+} */
