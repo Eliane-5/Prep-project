@@ -2,10 +2,10 @@
 
 $(document).ready(function(){
     $(".text").hide();
-    $(".container").css({
+    $("#care").css({
         opacity:1
     });
-    $(".container").hover(function(){
+    $("#care").hover(function(){
     $(this).css({opacity:.8});
     $(".text").fadeIn();
     },function(){

@@ -24,11 +24,9 @@
 .values{
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 190px;
     padding-right: 80px;
-    background-color: white;
-    width:800px;
-}
+    
+} 
 p{
     text-align: center;
 }
@@ -46,14 +44,7 @@ p{
 .naice{
     padding-left: 260px;
 }
-.image{
-    text-align: center;
-    width: 800px;
-    height: 400px;
-    margin-left: 140px;
-    
-}
-
+ 
   .denyse{
     margin-left: 100px;
   }
@@ -65,18 +56,14 @@ p{
   }
   .text{
     position :absolute;
-    transform: translate(-50%,-50%);
-    top:220%;
-    left:50%;
-    text-align: center;
-    /* width:100px;
-    height: 100px; */
+    top:40%;
+   margin-left: 55px;
     color:darkred;
-    font-size: 50px;
+    font-size: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style:oblique 10deg;
    
   }
-  .image:hover{
-      background-color: black;
-  }
+  
+
+ 
