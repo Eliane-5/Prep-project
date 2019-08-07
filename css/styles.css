@@ -1,8 +1,8 @@
 /* This is for styling. */
-.container-fluid{
-    background-color:rgb(223, 243, 250);
+/* .container-fluid{ */
+    /* background-color:rgb(223, 243, 250); */
    
-}
+/* } */
 .header{
     text-align: center;
     
@@ -64,6 +64,8 @@ p{
     font-style:oblique 10deg;
    
   }
-  
+  .team{
+      text-align: center;
+  }
 
  
