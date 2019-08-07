@@ -1,1 +1,82 @@
 /* This is for styling. */
+.container-fluid{
+    background-color:rgb(223, 243, 250);
+   
+}
+.header{
+    text-align: center;
+    
+    font-family:'Sarabun', sans-serif;;
+    font-style: normal;
+   
+    margin-bottom: 40px;
+}
+.company{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.our{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.values{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 190px;
+    padding-right: 80px;
+    background-color: white;
+    width:800px;
+}
+p{
+    text-align: center;
+}
+.julia{
+   
+   margin-left: 90px;
+  
+}
+ 
+.img1{
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.naice{
+    padding-left: 260px;
+}
+.image{
+    text-align: center;
+    width: 800px;
+    height: 400px;
+    margin-left: 140px;
+    
+}
+
+  .denyse{
+    margin-left: 100px;
+  }
+  .elliane{
+    margin-left: 90px;
+  }
+  .diane{
+    margin-left: 110px;
+  }
+  .text{
+    position :absolute;
+    transform: translate(-50%,-50%);
+    top:220%;
+    left:50%;
+    text-align: center;
+    /* width:100px;
+    height: 100px; */
+    color:darkred;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique 10deg;
+   
+  }
+  .image:hover{
+      background-color: black;
+  }
