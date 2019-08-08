@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Search Engine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-database.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <!-- This is the homepage file -->
+    <div class="container">
+        <div class="header">
+            <h1>Search</h1>
+        </div>
+        <div id="cards">
+            <div class="card-deck">
+                <div id="cardDoc" class="card">
+                    <img src="images/doctorSearch.jpg" class="card-img-top" height="300px" alt="doc-image!">
+                    <div class="card-body">
+                        <h5 class="card-title">DOCTOR REGISTRATION</h5>
+                        <p class="card-text">Be able to reach a variety of people in need of your services from all around the world.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small><span id="doc">Please click here to register.</span></small>
+                    </div>
+                </div>
+                <div id="cardPat" class="card">
+                    <img src="images/p6.jpg" class="card-img-top" height="300px" alt="pat-image!">
+                    <div class="card-body">
+                        <h5 class="card-title">PATIENT</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small><span id="pat">Click here to search</span></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form">
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Full name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Please Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Speciality</label>
+                    <input type="text" class="form-control" id="speciality" placeholder="Please Enter your speciality">
+                </div>
+                <div class="form-group">
+                        <label for="formGroupExampleInput3">Hospital</label>
+                        <input type="text" class="form-control" id="hospital" placeholder="Please Enter your workplace">
+                </div>
+                <div class="form-group">
+                        <label for="formGroupExampleInput4">Location</label>
+                        <input type="text" class="form-control" id="location" placeholder="Example: P.O. Box 367 Kigali, Rwanda ">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput5">Languages</label>
+                    <input type="text" class="form-control" id="lang" placeholder="Example: french, English, etc...">
+                </div>
+                <h7>Contact Information:</h7>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="required">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Phone Number</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Optional">
+                    </div>
+                </div>    
+            </form>
+            <input onclick="submit()" type="submit">
+        </div>
+        <div class="search">
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput"></label>
+                    <input type="text" class="form-control" id="search" placeholder="Enter the Speciality... ">
+                </div>  
+            </form>
+            <button id="input" type="submit" class="btn btn-primary mb-2">search</button>
+            <button id="show" type="submit" class="btn btn-primary mb-2">list of doctors</button>
+        </div>
+        <div id="list">
+            <ul> 
+            </ul>  
+        </div>
+        <div id="available">
+            <ol>
+                
+            </ol>
+        </div>
+        
+    </div>
+</body>
+</html>
