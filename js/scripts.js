@@ -1,3 +1,7 @@
+// Js
+$('.bd-example').carousel({
+    interval: 500 ,
+  });
 // function resetInputs(){
 //     $("#name").val("");
 //     $("#email").val("");
