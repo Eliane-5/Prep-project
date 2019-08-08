@@ -1,3 +1,120 @@
+
+.container-fluid{ 
+  color:black;
+   
+} 
+.header{
+    text-align: center;
+    
+    font-family:'Sarabun', sans-serif;;
+    font-style: normal;
+   
+    margin-bottom: 40px;
+}
+.company{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.our{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.values{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 80px;
+    
+} 
+p{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.julia{
+   
+   margin-left: 90px;
+  
+}
+ 
+.img1{
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.naice{
+    padding-left: 260px;
+}
+ 
+.denyse{
+  margin-left: 100px;
+}
+.elliane{
+  margin-left: 90px;
+}
+.diane{
+  margin-left: 110px;
+}
+.text{
+  position :absolute;
+  top:40%;
+  margin-left: 55px;
+  color:darkred;
+  font-size: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style:oblique 10deg; 
+   
+}
+.team{
+  text-align: center;
+}
+  
+#vis{
+  background-image: url("../images/eye1.jpg");
+  background-position:center center;
+  position: relative;
+  background-size: cover;
+  padding-bottom:5em;
+  color:white;
+  margin-left: 650px;
+  width:90px;
+  height:250px;
+  margin-top:-100px;
+}
+.vision{
+  background-color: rgba(0, 0, 0, 0.7);
+  background-color: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  }
+#miss{
+  background-image: url("../images/mission.jpg");
+  background-position:center center;
+  position: relative;
+  background-size: cover;
+  padding-bottom:5em;
+  color:white;
+  height:300px;
+  width:90px;
+  margin-top:200px; 
+}
+  
+.mission{
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+
+  }
+
+
+
 /* This is for styling. */
 #nana{
   color: rgb(39, 71, 109);
