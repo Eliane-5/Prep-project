@@ -143,3 +143,28 @@ ul li a{
   @media only screen and (min-width: 768px) {
     /* For desktop: */
   }
+/* This is for styling. */
+.card-deck{
+    margin-top: 30px;
+}
+#form,#list,#available, .search{
+    display: none;
+}
+#doc,#pat{
+    color:blue;
+    cursor: pointer;
+}
+#doc:hover , #pat:hover {
+    text-decoration: underline;
+}
+.header{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    padding: 1%;
+    border-bottom: 1px solid black; 
+    border-top: 1px solid black;
+}
+.card-title{
+    text-decoration: underline;
+}
