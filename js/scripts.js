@@ -11,7 +11,7 @@ $('.btn').click(function (event){
     var email = $('#email').val();
     var message =$('#message').val();
     if ((name !== '')&& (email !== '')&&(message !== '')){
-        alert(name + ' ' + 'We Have Received Your Message and We Thank You For Your Time')
+        alert(name + ' ' + 'We Have Received Your Message and We Thank You For Your Time.')
     }else{
         alert('please input your contact information')
     }
