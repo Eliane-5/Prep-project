@@ -1,0 +1,275 @@
+h1{
+    color:black;
+    font-family:Yellotail;
+}
+
+
+
+#fist{
+    height:500px;
+}
+
+#firstp{
+    
+    margin-left:35%;
+    margin-top:-18%;
+}
+.yuo{
+    margin-top:-10%;
+    margin-left:3%;
+    
+}
+
+#sec{
+    height:500px;
+    margin-left:80%;
+}
+
+
+.secondp{
+    margin-left:27%;
+    margin-top:-35%;
+}
+
+
+#thid{
+    height:500px;
+    
+}
+
+.thirdp{
+    
+    margin-left: 29%;
+    margin-top:-18%;
+}
+
+#fout{
+    height:500px;
+    margin-left:78%; 
+}
+
+.fourp{
+    margin-left:25%;
+    margin-top:-45%;
+
+}
+
+h2{
+    margin-left:15%; 
+    color:skyblue;  
+}
+.picso1{
+    margin-top:-1%;
+    margin-left:3%;
+
+}
+
+h3{
+    color:red;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+h4{
+    margin-left:15%;  
+    color:skyblue; 
+}
+
+.picso3{
+    margin-left:3%;  
+}
+
+.picso4{
+    margin-top:-45%;
+}
+
+
+.butt{
+float:right;
+margin-top:-38%;
+width:20%;
+border-radius:40%;
+}
+.dropbtn {
+    background-color: pink;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+
+  .butt {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .boot-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(black);
+    z-index: 1;
+  }
+  
+  .boot-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none; 
+    display: block;
+  }
+  
+
+  .boot-content a:hover {background-color: #ddd;}
+  
+  
+  .butt:hover .boot-content {display: block;}
+  
+  
+  .butt:hover .dropbtn {background-color: black;}
+
+
+  .but{
+   float:left;
+   margin-top:-19%;
+  }
+
+  .dropbtn {
+    background-color: pink;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+
+  .but {
+    position: relative;
+    display: inline-block;
+    width:20%;
+  }
+  
+  
+  .boot-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(black);
+    z-index: 1;
+  }
+  
+  .boot-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none; 
+    display: block;
+  }
+  
+
+  .boot-content a:hover {background-color: #ddd;}
+  
+  
+  .but:hover .boot-content {display: block;}
+  
+  
+  .but:hover .dropbtn {background-color: red;
+}
+
+
+.bit{
+    float:right;
+    margin-top:-36%;
+   }
+ 
+   .dropbtn {
+     background-color: burlywood;
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+   }
+   
+
+  .bit {
+    position: relative;
+    display: inline-block;
+    width:20%;
+  }
+  
+  
+  .boot-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(black);
+    z-index: 1;
+  }
+  
+  .boot-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none; 
+    display: block;
+  }
+  
+
+  .boot-content a:hover {background-color: #ddd;}
+  
+  
+  .bit:hover .boot-content {display: block;}
+  
+  
+  .bit:hover .dropbtn {background-color: gray;}
+
+
+  .byt{
+    float:left;
+    margin-top:-19%;
+   }
+ 
+   .dropbtn {
+     background-color: blue;
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+   }
+   
+
+  .byt {
+    position: relative;
+    display: inline-block;
+    width:20%;
+  }
+  
+  
+  .boot-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(black);
+    z-index: 1;
+  }
+  
+  .boot-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none; 
+    display: block;
+  }
+  
+
+  .boot-content a:hover {background-color: #ddd;}
+  
+  
+  .byt:hover .boot-content {display: block;}
+  
+  
+  .byt:hover .dropbtn {background-color: pink;}
+
+  
