@@ -1,4 +1,4 @@
-
+/* Styling of Denise about */
 .container-fluid{ 
   color:black;
    
@@ -11,10 +11,9 @@
    
     margin-bottom: 40px;
 }
-.company{
+#company{
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 7%;
 }
 .our{
     text-align: center;
@@ -69,50 +68,41 @@ p{
 .team{
   text-align: center;
 }
-  
+#missvis{
+    margin: 5%;
+    padding-bottom:6%;
+} 
 #vis{
   background-image: url("../images/eye1.jpg");
   background-position:center center;
-  position: relative;
   background-size: cover;
-  padding-bottom:5em;
   color:white;
-  margin-left: 650px;
-  width:90px;
-  height:250px;
-  margin-top:-100px;
+  width:100%;
+  height:100%;
+  margin-top:100px;
 }
 .vision{
   background-color: rgba(0, 0, 0, 0.7);
-  background-color: cover;
-  width: 100%;
   height: 100%;
-  position: relative;
   z-index: 1;
+  padding-top: 5%;
   }
 #miss{
   background-image: url("../images/mission.jpg");
   background-position:center center;
-  position: relative;
   background-size: cover;
-  padding-bottom:5em;
   color:white;
-  height:300px;
-  width:90px;
-  margin-top:200px; 
+  height:100%;
+  width:100%;
 }
   
 .mission{
   background-color: rgba(0, 0, 0, 0.7);
-  top: 0;
-  left: 0;
-  width: 100%;
   height: 100%;
-  position: relative;
   z-index: 1;
-
+  padding-top: 5%;
   }
-
+/* End of Styling for Denise */
 
 
 /* This is for styling. */
