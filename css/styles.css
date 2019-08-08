@@ -1,4 +1,3 @@
-/* This is for styling. */
 *{
     margin: 0px;
     padding: 0px;
@@ -9,9 +8,8 @@ body{
     margin:0;
     padding: 0;
     background-image: url("../images/contact-us-background-image_625723.png");
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
-    padding: 25%;
 
 }
 .contact-form{
@@ -66,19 +64,13 @@ body{
     margin-top: 8px;
     width: 100%;
 }
-/* .footer{
-    width: 100%;
-    /* height:auto; */
-    /* margin:auto; */
-    background:#272727;
-    padding: 60px ;
-    top:90%;
-    position: absolute;;
-    left:0;
+.footer{
+    background-color:grey;
+    margin-top:36%;
+    padding:0px;
+    box-sizing: border-box;
 
-    
-
-} */
+}
 .fa:hover{
     opacity:0.7;
   }
@@ -97,12 +89,6 @@ body{
   .fa-facebook{
     background:black;
     color:white;
-    /* width:70px;
-    height:70px;
-    margin: 0px 20px;
-    border-radius:100%;
-    font-size: 25px;
-    line-height:50px; */
   }
   .fa-instagram{
     background: black;
@@ -116,34 +102,3 @@ body{
     background:black;
     color:white;
   }
-.footer-wrapper{
-    width:100%;
-    height:auto;
-    background-image: url("../images/footer-background-011.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-}
-/* .footer ul{
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-}
-.footer ul li{
-    display:inline-block;
-    width:50px;
-    height:50px;
-    margin: 0px 10px;
-    border-radius:100%;
-    background:#013220; 
-}
-.footer ul li a{
-    
-    font-size: 25px;
-}
-.footer ul li a i{
-    line-height:50px;
-    color:white;
-} */
