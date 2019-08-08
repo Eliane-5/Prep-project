@@ -1,6 +1,6 @@
 /* This is for styling. */
 
-/* h1{
+ h1{
   padding-bottom: 100px;
   color:rgb(2, 59, 24);
   font-family: 'Volkhov', serif;
@@ -8,8 +8,8 @@
 .carousel slide carousel-fade{
   width:100%;
 }
- /* nav>ul{text-align: right;} */
-/* ul>li{
+ nav>ul{text-align: right;}
+ ul>li{
   display: inline-block;
 }
 nav a:hover{
@@ -34,4 +34,4 @@ text-align: center;
     color:wheat;
     padding: 14px 16px;
     text-decoration: none;
-  } */ */
+  } 
