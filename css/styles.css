@@ -1,54 +1,58 @@
 /* This is for styling. */
+/* Start of Diane styling. */
 #nana{
-  color: rgb(39, 71, 109);
-  font-size: 40px;
-  padding-bottom: 100px;
+    color: rgb(39, 71, 109);
+    font-size: 40px;
+    padding-bottom: 100px;
 }
  h1{
-  padding-bottom: 350px;
-  color:rgb(2, 59, 24);
-  font-family: 'Volkhov', serif;
-  font-size: 70px;  
+    padding-bottom: 350px;
+    color:rgb(2, 59, 24);
+    font-family: 'Volkhov', serif;
+    font-size: 70px;  
 }
 .carousel slide carousel-fade{
-  width:100%;
+    width:100%;
 }
- nav>ul{text-align: center;}
- ul>li{
-  display: inline-block;
+nav>ul{
+    text-align: center;
+}
+ul>li{
+    display: inline-block;
 }
 nav a:hover{
-  color:whitesmoke;
-  font-weight: bold;
+    color:whitesmoke;
+    font-weight: bold;
   
 }
 nav{
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background-color: #09475a;
-  background-size: cover;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  text-align: center;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #09475a;
+    background-size: cover;
+    text-align: center;
 }
-  nav a{
-    
+nav a{
     display: block;
     color:wheat;
     padding: 14px 16px;
     text-decoration: none;
   } 
 #h{
-color:wheat;
+    color:wheat;
 }
-*{
+/* End Diane's styling. */
+
+
+/* Julia contact form */
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-body{
+} */
+#body{
     font-family:'open sans', sans-serif;
     margin:0;
     padding: 0;
@@ -97,7 +101,6 @@ body{
     outline: none;
     font-size: 18px;
     margin-top: 6px;
-
 }
 .btn{
     display: inline-block;
@@ -116,7 +119,7 @@ body{
     box-sizing: border-box;
 
 }
-ul{
+/* ul{
     list-style-type:none;
     margin-top:0;
     
@@ -130,13 +133,12 @@ ul li a{
     border:1px solid transparent;
     color:Black;
     transition:0.6s ease;
-  }
+  } */
 
 .fa:hover{
     opacity:0.7;
   }
-
-  .fa-facebook{
+.fa-facebook{
     background:black;
     color:white;
     padding: 20px;
@@ -145,9 +147,8 @@ ul li a{
     text-decoration: none;
     line-height:50px; 
     margin: 5px;
-
-  }
-  .fa-instagram{
+}
+.fa-instagram{
     background: black;
     color:white;
     padding: 20px;
@@ -156,9 +157,8 @@ ul li a{
     text-decoration: none;
     line-height:50px; 
     margin: 5px;
-
-  }
-  .fa-twitter{
+}
+.fa-twitter{
     background:black;
     color:white;
     padding: 20px;
@@ -167,9 +167,8 @@ ul li a{
     text-decoration: none;
     left: 50%;
     margin: 5px;
-
-  }
-  .fa-linkedin{
+}
+.fa-linkedin{
     background:black;
     color:white;
     padding: 20px;
@@ -178,17 +177,7 @@ ul li a{
     text-decoration: none;
     line-height:50px; 
     margin: 5px;
-
-  }
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-  }
-  
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-  }
-/* This is for styling. */
+}  
 .card-deck{
     margin-top: 30px;
 }
@@ -213,3 +202,4 @@ ul li a{
 .card-title{
     text-decoration: underline;
 }
+/* End of julia contact form */
