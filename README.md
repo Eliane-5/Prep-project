@@ -1,5 +1,5 @@
 # DigiMed Project
-### by Kamana Irankunda Elian <br> Agasaro Julia <br> Irahoza Denyse <br> Diane Umwali<br> Naice Uwitonze.
+### by Kamana Irankunda Eliane <br> Agasaro Julia <br> Irahoza Denyse <br> Diane Umwali<br> Naice Uwitonze.
 ## Description
 DigiMed is a web application that was developed by a group of five as stated above; it provides information concerning different medical specialist in Rwanda to different patients; it gives off only the information provided and entered by registered doctors. It helps allocate hospitals and location of doctors and other basic information needed to help get you started. DigiMed is offering an easy to use technology based solution to patients and doctors at the same time.  
 ## Setup/Installation Requirements client:
