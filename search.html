@@ -16,7 +16,16 @@
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
 </head>
-<body>
+<body id="searchB">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+            <li><a href="search.html">SEARCH</a></li>
+        </ul>
+    </nav>
     <!-- This is the homepage file -->
     <div class="container">
         <div class="header">
@@ -28,7 +37,7 @@
                     <img src="images/doctorSearch.jpg" class="card-img-top" height="300px" alt="doc-image!">
                     <div class="card-body">
                         <h5 class="card-title">DOCTOR REGISTRATION</h5>
-                        <p class="card-text">Be able to reach a variety of people in need of your services from all around the world.</p>
+                        <p class="card-text">For all the doctors out there who need help starting up;<br>This is an easy and efficient way to make your specialities and specifications known.<br>Register below and start a wonderful journey with us.</p>
                     </div>
                     <div class="card-footer">
                         <small><span id="doc">Please click here to register.</span></small>
@@ -38,7 +47,7 @@
                     <img src="images/p6.jpg" class="card-img-top" height="300px" alt="pat-image!">
                     <div class="card-body">
                         <h5 class="card-title">PATIENT</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">This is for all patients who need orientation on who are the doctors around and where to find them.<br>Start your search.</p>
                     </div>
                     <div class="card-footer">
                         <small><span id="pat">Click here to search</span></small>
@@ -47,6 +56,7 @@
             </div>
         </div>
         <div id="form">
+            <h4>Doctor Registration:</h4>
             <form>
                 <div class="form-group">
                     <label for="formGroupExampleInput">Full name</label>
@@ -83,14 +93,15 @@
             <input onclick="submit()" type="submit">
         </div>
         <div class="search">
+            <h4>Input your search: </h4>
             <form>
                 <div class="form-group">
                     <label for="formGroupExampleInput"></label>
-                    <input type="text" class="form-control" id="search" placeholder="Enter the Speciality... ">
+                    <input type="text" class="form-control" id="search" placeholder="Enter the Speciality to search... ">
                 </div>  
             </form>
             <button id="input" type="submit" class="btn btn-primary mb-2">search</button>
-            <button id="show" type="submit" class="btn btn-primary mb-2">list of doctors</button>
+            <button id="show" type="submit" class="btn btn-primary mb-2">General list of doctors</button>
         </div>
         <div id="list">
             <ul> 

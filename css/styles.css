@@ -1,15 +1,17 @@
 /* Styling of Denise about */
-.container-fluid{ 
-  color:black;
-   
+#top{
+    margin-top:15%;
 } 
 .header{
     text-align: center;
     
     font-family:'Sarabun', sans-serif;;
     font-style: normal;
-   
+    margin-top: 15%;
     margin-bottom: 40px;
+}
+#searchB{
+    margin-bottom: 10%;
 }
 #company{
     text-align: center;
@@ -106,6 +108,7 @@ p{
 
 
 /* This is for styling. */
+
 /* Start of Diane styling. */
 #nana{
     color: rgb(39, 71, 109);
@@ -159,35 +162,37 @@ nav a{
     padding: 0px;
     box-sizing: border-box;
 } */
+.yuo{
+    margin-top:-10%;
+    margin-left:3%;  
+}
+.all{
+    margin-top:5%;
+}
 #body{
     font-family:'open sans', sans-serif;
-    margin:0;
-    padding: 0;
     background-image: url("../images/contact-us-background-image_625723.png");
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
-#contact-form{
-    width:80%;
-    max-width: 600px;
-    position: absolute;
+ #contact-form{
+    width:70%;
     background:#f1f1f1;
-    top:45%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    margin-left:15%;
+    margin-bottom: 3%;
     padding: 30px 40px;
     box-sizing: border-box;
     border-radius:8px;
-    text-align: center;
     box-shadow: 0 0 20px #000000b3;
     font-family: "Montserrat",sans-serif;
-
 }
-#contact-form h1{
-    margin-top: 0;
+#contactH{
+    margin-bottom: 0;
+    padding-bottom: 0;
     font-weight: 200;
 }
+
 .txt{
     border: 1px solid gray;
     margin: 8px 0;
@@ -211,7 +216,7 @@ nav a{
 }
 .btn{
     display: inline-block;
-    background:#013220;
+    background:grey;
     padding: 14px 0;
     color:white;
     text-transform: uppercase;
@@ -219,29 +224,22 @@ nav a{
     margin-top: 8px;
     width: 100%;
 }
-.footer{
+footer{
     background-color:grey;
-    margin-top:36%;
-    padding:0px;
-    box-sizing: border-box;
+    padding-top:3%;
+    padding-right:0;
+    margin-right:0; 
+    width:100%;
+}
+#footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
-/* ul{
-    list-style-type:none;
-    margin-top:0;
-    
-  }
-ul li a{
-    padding:4px 6px;
-    overflow:hidden;
-    text-align:center;
-    text-decoration:none;
-    font-family:"roboto", sans serif;
-    border:1px solid transparent;
-    color:Black;
-    transition:0.6s ease;
-  } */
-
+.copyF{
+    text-align: center;
+}
 .fa:hover{
     opacity:0.7;
   }
@@ -285,6 +283,10 @@ ul li a{
     line-height:50px; 
     margin: 5px;
 }  
+/* End of julia contact form */
+
+
+/* Eliane search form */
 .card-deck{
     margin-top: 30px;
 }
@@ -298,7 +300,7 @@ ul li a{
 #doc:hover , #pat:hover {
     text-decoration: underline;
 }
-.header{
+.header>h1{
     text-align: center;
     margin-bottom: 3%;
     margin-top: 2%;
@@ -309,4 +311,4 @@ ul li a{
 .card-title{
     text-decoration: underline;
 }
-/* End of julia contact form */
+/* End of ELiane search form */
